@@ -16,10 +16,10 @@ class App extends React.Component{
     }
     render(){
 
-      const {data}=this.state;
+      const {data}=this.state;  
 
 
-        return (
+        return (  
             <div className={styles.container}>
                 <Cards data={data} />
                 <CountryPicker />
